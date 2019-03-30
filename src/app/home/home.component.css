@@ -1,4 +1,26 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.homepage-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 900px;
+}
+
+.homepage-grid-row {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 mat-card {
-    background-color: pink;
+    background-color: lightgray;
     max-width: 300px;
+    max-height: 250px;
+    border: 30 30 30 30px white;
 }

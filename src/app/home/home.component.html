@@ -1,15 +1,43 @@
 <div>
-  <mat-card>
-      <mat-card-title>title</mat-card-title>
-      <mat-card-content>
-        Macy is een hond. Noet en Ivar zijn cavia's. Macy's favoriete eten is vlees. Noets favoriete eten is Noet-mix. Dat is ook Ivars favoriete eten.
-      </mat-card-content>
-      <!-- <mat-card-image>
-          <img src="assets/cavia1.jpg">
-      </mat-card-image> -->
-      <img mat-card-image src="assets/cavia1.jpg"> 
-  </mat-card>
+    <div class="homepage-grid">
+        <div class="homepage-grid-row">
+            <mat-card>
+                <mat-card-title>{{paintingsNavCard.title}}</mat-card-title>
+                <mat-card-content>
+                  {{paintingsNavCard.content}}
+                </mat-card-content>
+                <img mat-card-image src="assets/cavia1.jpg"> 
+            </mat-card>
+      
+            <mat-card>
+                <mat-card-title>{{universeNavCard.title}}</mat-card-title>
+                <mat-card-content>
+                  {{universeNavCard.content}}
+                </mat-card-content>
+                <img mat-card-image src="assets/cavia1.jpg"> 
+            </mat-card>
+          </div>
+      
+          <div class="homepage-grid-row">
+              <mat-card>
+                  <mat-card-title>Antioxidanten</mat-card-title>
+                  <mat-card-content>
+                    {{paintingsNavCard.content}}
+                  </mat-card-content>
+                  <img mat-card-image src="assets/cavia1.jpg"> 
+              </mat-card>
+        
+              <mat-card>
+                  <mat-card-title>Formule 1</mat-card-title>
+                  <mat-card-content>
+                    {{universeNavCard.content}}
+                  </mat-card-content>
+                  <img mat-card-image src="assets/cavia1.jpg"> 
+              </mat-card>
+          </div>
+      </div>
 </div>
+
 
 
 
