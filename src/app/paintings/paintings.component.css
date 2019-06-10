@@ -1,0 +1,20 @@
+.card-show-painting {
+    background-color: white;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card-couple {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
