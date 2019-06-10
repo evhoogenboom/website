@@ -1,0 +1,34 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.homepage-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: 40px;
+}
+
+.homepage-grid-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-height: 300px;
+}
+
+
+
+mat-card {
+    background-color: whitesmoke;
+    max-width: 250px;
+    margin: 8px;
+    border: 15px rgb(140, 171, 201);
+}
+
+.mat-card-image-home {
+    max-heigth: 140px;
+}
