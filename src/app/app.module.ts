@@ -7,12 +7,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule, MatToolbarModule, MatCardModule, MatSnackBarModule, MatTableModule,
   MatGridListModule} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
+import { PaintingsComponent } from './paintings/paintings.component';
+import { HealthComponent } from './health/health.component';
+import { GravitationComponent } from './gravitation/gravitation.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    PaintingsComponent,
+    HealthComponent,
+    GravitationComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CustomNavigationCard } from '../entity/custom-navigation-card';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,19 +13,33 @@ export class HomeComponent implements OnInit {
     title: 'Schilderijen',
     content: null,
     imageSource: "assets/cavia1.jpg",
-    routerLink: '/schilderijen'
+    routerLink: '/paintings'
   };
 
   universeNavCard: CustomNavigationCard = {
     title: 'Gravitatie',
     content: null,
     imageSource: "assets/cavia1.jpg",
-    routerLink: '/schilderijen'
+    routerLink: '/gravatation'
   };
   
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
+
+  onPaintingsClick() {
+    this.router.navigateByUrl("/paintings");
+  }
+
+  onHealthClick() {
+    this.router.navigateByUrl("/health");
+  }
+
+  onGravitationClick() {
+    this.router.navigateByUrl("/gravitation");
+  }
+
+
 
 }
