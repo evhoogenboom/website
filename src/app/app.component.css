@@ -1,4 +1,9 @@
 mat-toolbar {
     height: 110px;
-    background-color: #1c0054;
+    background-color: rgb(9, 25, 59);
+    color: white;
+   
 }
+
+
+
