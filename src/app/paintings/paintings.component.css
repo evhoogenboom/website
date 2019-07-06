@@ -1,0 +1,28 @@
+
+.card-show-painting {
+    background-color: white;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card-couple {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.paintingsTitle {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
