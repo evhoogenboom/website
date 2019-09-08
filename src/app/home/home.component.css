@@ -23,9 +23,10 @@ div {
 
 
 mat-card {
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     max-width: 250px;
     margin: 8px;
+    /* padding: 5px; */
     border: 15px rgb(140, 171, 201);
 }
 
