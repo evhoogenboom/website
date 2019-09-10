@@ -9,19 +9,6 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  paintingsNavCard: CustomNavigationCard = {
-    title: 'Schilderijen',
-    content: null,
-    imageSource: "assets/cavia1.jpg",
-    routerLink: '/paintings'
-  };
-
-  universeNavCard: CustomNavigationCard = {
-    title: 'Gravitatie',
-    content: null,
-    imageSource: "assets/cavia1.jpg",
-    routerLink: '/gravatation'
-  };
   
   constructor(public router: Router) { }
 
