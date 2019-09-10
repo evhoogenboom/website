@@ -14,6 +14,18 @@ export class AppComponent {
     this.router.navigateByUrl("/home");
   }
 
+  onPaintingsClick() {
+    this.router.navigateByUrl("/paintings");
+  }
+
+  onHealthClick() {
+    this.router.navigateByUrl("/health");
+  }
+
+  onGravitationClick() {
+    this.router.navigateByUrl("/gravitation");
+  }
+
 
 
 }

@@ -1,7 +1,19 @@
 mat-toolbar {
-    height: 80px;
+    height: 70px;
     background-color: rgb(9, 25, 59);
     color: white;
+}
+
+.buttons-div {
+    margin: 30px;
+}
+
+.toolbar-button {
+    background-color: transparent;
+    color: white;
+    font-size: 80%;
+    margin-right: 16px;
+    margin-left: 8px;
 }
 
 

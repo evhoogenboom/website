@@ -1,6 +1,6 @@
 <mat-toolbar>
   <span>
-    <button mat-button (click)="onHomeClick()">
+    <button mat-button class="toolbar-button" (click)="onHomeClick()">
         <mat-icon>home</mat-icon>
     </button>
   </span>
@@ -9,6 +9,17 @@
         Bob Hoogenboom
     </p>
   </span>
+  <div class="buttons-div">
+      <button mat-button class="toolbar-button"  (click)="onPaintingsClick()">
+          Schilderijen
+      </button>
+      <button mat-button class="toolbar-button"  (click)="onGravitationClick()">
+          Gravitatietheorie
+      </button>
+      <button mat-button class="toolbar-button"  (click)="onHealthClick()">
+          Gezondheid en sport
+      </button>
+    </div>
 </mat-toolbar>
 
 
