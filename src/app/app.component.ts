@@ -30,6 +30,10 @@ export class AppComponent {
     this.router.navigateByUrl("/motor");
   }
 
+  onContactClick() {
+    this.router.navigateByUrl("/contact");
+  }
+
 }
 
 
