@@ -1,14 +1,7 @@
 
-.beau {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
 .home-title {
     font-weight: normal;
-    /* font-style: italic; */
+    font-size: 180%;
 }
 
 .home-image {

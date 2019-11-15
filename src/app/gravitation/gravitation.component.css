@@ -1,6 +1,13 @@
-.book-preview {
-    margin: 20px;
+
+.book-preview-container {
+    width: 50%;
 }
+
+.book-preview {
+    margin: 10px;
+}
+
+
 
 .buy-button {
     width: 180px;
