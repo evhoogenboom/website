@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PaintingsComponent } from './paintings/paintings.component';
 import { HealthComponent } from './health/health.component';
 import { GravitationComponent } from './gravitation/gravitation.component';
+import { MotorComponent } from './motor/motor.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { GravitationComponent } from './gravitation/gravitation.component';
     PaintingsComponent,
     HealthComponent,
     GravitationComponent,
+    MotorComponent,
   ],
   imports: [
     BrowserModule,

@@ -26,7 +26,9 @@ export class AppComponent {
     this.router.navigateByUrl("/gravitation");
   }
 
-
+  onMotorClick() {
+    this.router.navigateByUrl("/motor");
+  }
 
 }
 
