@@ -46,8 +46,10 @@
 
 
 .main-text {
-    width: 50%;;
+    width: 40%;;
 }
 
-
+.painting-image-container {
+    width: 50%;
+}
 
