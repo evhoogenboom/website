@@ -6,6 +6,7 @@ import { HealthComponent } from './health/health.component';
 import { GravitationComponent } from './gravitation/gravitation.component';
 import { MotorComponent } from './motor/motor.component';
 import { ContactComponent } from './contact/contact.component';
+import { CollectionPageComponent } from './collection-page/collection-page.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'health', component: HealthComponent},
   {path: 'gravitation', component: GravitationComponent},
   {path: 'motor', component: MotorComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path: 'collection', component: CollectionPageComponent}
 ]
 
 @NgModule({

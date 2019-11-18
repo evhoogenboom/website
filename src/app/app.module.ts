@@ -13,6 +13,7 @@ import { HealthComponent } from './health/health.component';
 import { GravitationComponent } from './gravitation/gravitation.component';
 import { MotorComponent } from './motor/motor.component';
 import { ContactComponent } from './contact/contact.component';
+import { CollectionPageComponent } from './collection-page/collection-page.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
     GravitationComponent,
     MotorComponent,
     ContactComponent,
+    CollectionPageComponent,
   ],
   imports: [
     BrowserModule,
