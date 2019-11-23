@@ -1,6 +1,7 @@
 
 .home-title {
     font-size: 300%;
+    margin-bottom: 5px;;
 }
 
 
@@ -24,7 +25,7 @@
 }
 
 .subject-text-container {
-    width: 200px;
+    width: 250px;
     margin-left: 20px;
     margin-top: 20px;
     display: flex;
@@ -51,4 +52,10 @@ button {
 .extra-margin {
     margin-left: 210px;
     margin-right: 210px;
+}
+
+.read-more {
+    margin-top: 35px;
+    font-size: 150%; 
+    color: gray;
 }
