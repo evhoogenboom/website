@@ -1,33 +1,21 @@
-.home-welcome {
-    font-size: 450%;
+.main-text {
+    width: 40%;
 }
-
-.home-intro {
-font-size: 200%;
-color: gray;
-margin-top: 15px;
-}
-
 
 .home-title {
-    font-size: 300%;
+    font-size: 200%;
     margin-bottom: 5px;;
 }
 
-
-.title-card {
-    width: 500px;
-    height: 190px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+h2 {
+    color: black;
 }
 
 
+
 .subject-card {
-    width: 500px;
-    height: 190px;
+    width: 400px;
+    height: 140px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -43,39 +31,26 @@ margin-top: 15px;
     align-items: flex-start;
 }
 
-.welcome-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 490px;
-    height: 190px;
-}
 
 .square-image-container {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
 }
 
-.gravitation-image-container {
-    width: 180px;
-    height: 180px;
-}
 
 button {
     border-color: white;
     background-color: white;
     border-width: 0;
+    margin: 10px;
 }
 
 .extra-margin {
-    margin-top: 100px;;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-right: 150px;
 }
 
 .read-more {
-    margin-top: 35px;
-    font-size: 150%; 
+    margin-top: 15px;
+    font-size: 100%; 
     color: gray;
 }
