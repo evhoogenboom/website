@@ -3,15 +3,15 @@
     <div class="main-text">
         <h2>Welkom op de website van Bob Hoogenboom!</h2>
         <p class="text-beginning-of-page">
-         Kijk gerust even rond voor inspiratie. Meer onderwerpen zoals gezondheid, Formule 1 en het klimaatprobleem 
+         Kijk gerust even rond voor inspiratie. Meer onderwerpen zoals gezondheid, Formule 1 en het klimaatprobleem
          volgen binnenkort.
-        </p> 
+        </p>
     </div>
 
 
 <div class="macy">
-   
-    <button>
+
+    <button (click)="onMotorClick()">
         <div>
             <mat-card class="subject-card mat-elevation-z8">
                 <div class="square-image-container">
@@ -28,7 +28,7 @@
         </div>
     </button>
 
-        <button>
+        <button (click)="onGravitationClick()">
             <div>
                 <mat-card class="subject-card mat-elevation-z8">
                     <div class="square-image-container">
@@ -45,7 +45,7 @@
             </div>
         </button>
 
-    <button>
+    <button (click)="onPaintingsClick()">
         <div>
             <mat-card class="subject-card mat-elevation-z8">
                 <div class="square-image-container">
