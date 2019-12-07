@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   }
 
   onHealthClick() {
-    this.router.navigateByUrl('/health');
+    // this.router.navigateByUrl('/health');
   }
 
 
