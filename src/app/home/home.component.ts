@@ -9,28 +9,32 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  
+
   constructor(public router: Router) { }
 
   ngOnInit() {
   }
 
   onPaintingsClick() {
-    this.router.navigateByUrl("/paintings");
+    this.router.navigateByUrl('/paintings');
   }
 
   onGravitationClick() {
-    this.router.navigateByUrl("/gravitation");
+    this.router.navigateByUrl('/gravitation');
   }
 
   onMotorClick() {
-    this.router.navigateByUrl("/motor");
+    this.router.navigateByUrl('/motor');
   }
 
   onContactClick() {
-    this.router.navigateByUrl("/contact");
+    this.router.navigateByUrl('/contact');
   }
-  
+
+  onHealthClick() {
+    this.router.navigateByUrl('/health');
+  }
+
 
 
 

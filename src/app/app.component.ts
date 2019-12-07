@@ -11,31 +11,31 @@ export class AppComponent implements OnInit {
   constructor(public router: Router) {}
 
   ngOnInit() {
-    this.router.navigateByUrl("/home");
+    this.router.navigateByUrl('/home');
   }
 
   onHomeClick() {
-    this.router.navigateByUrl("/home");
+    this.router.navigateByUrl('/home');
   }
 
   onPaintingsClick() {
-    this.router.navigateByUrl("/paintings");
+    this.router.navigateByUrl('/paintings');
   }
 
   onHealthClick() {
-    this.router.navigateByUrl("/health");
+    this.router.navigateByUrl('/health');
   }
 
   onGravitationClick() {
-    this.router.navigateByUrl("/gravitation");
+    this.router.navigateByUrl('/gravitation');
   }
 
   onMotorClick() {
-    this.router.navigateByUrl("/motor");
+    this.router.navigateByUrl('/motor');
   }
 
   onContactClick() {
-    this.router.navigateByUrl("/contact");
+    this.router.navigateByUrl('/contact');
   }
 
 }
