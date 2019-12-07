@@ -53,7 +53,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .text-beginning-of-page {
-  line-height: 25px;
+  line-height: 30px;
   text-align: justify;
   font-size: 120%;
 }
