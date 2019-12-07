@@ -15,6 +15,21 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  onPaintingsClick() {
+    this.router.navigateByUrl("/paintings");
+  }
+
+  onGravitationClick() {
+    this.router.navigateByUrl("/gravitation");
+  }
+
+  onMotorClick() {
+    this.router.navigateByUrl("/motor");
+  }
+
+  onContactClick() {
+    this.router.navigateByUrl("/contact");
+  }
   
 
 
