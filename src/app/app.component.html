@@ -1,29 +1,26 @@
-<mat-toolbar>
+<mat-toolbar></mat-toolbar>
+<mat-toolbar class="main-toolbar">
   <span>
     <button mat-button class="toolbar-button" (click)="onHomeClick()">
         <mat-icon>home</mat-icon>
     </button>
   </span>
-  <span>
-    <p>
-        Bob Hoogenboom
-    </p>
-  </span>
+  <div class="signature-image-container">
+    <img style="object-fit: contain; height: 100%" src="assets/signature-bob.png">
+  </div>
   <div class="buttons-div">
+    <div >
       <button mat-button class="toolbar-button"  (click)="onPaintingsClick()">
           Schilderijen
       </button>
       <button mat-button class="toolbar-button"  (click)="onGravitationClick()">
           Gravitatietheorie
       </button>
-      <!-- Page not yet implemented -->
-      <!-- <button mat-button class="toolbar-button"  (click)="onHealthClick()">
-          Gezondheid en sport
-      </button> -->
       <button mat-button class="toolbar-button"  (click)="onMotorClick()">
           Motor
       </button>
-      <button mat-button class="toolbar-button"  (click)="onContactClick()">
+    </div>
+      <button mat-button class="toolbar-button contact-button"  (click)="onContactClick()">
           Contact
       </button>
     </div>
@@ -36,7 +33,7 @@
 
 
 
-<!-- 
+<!--
 <div style="text-align:center">
   <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div> -->
