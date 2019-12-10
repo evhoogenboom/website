@@ -33,5 +33,12 @@ mat-toolbar {
   height: 100px;
 }
 
+.copyright-note {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 

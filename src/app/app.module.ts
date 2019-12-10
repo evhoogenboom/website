@@ -4,9 +4,11 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatToolbarModule, MatCardModule, MatSnackBarModule, MatTableModule,
+import {
+  MatButtonModule, MatToolbarModule, MatCardModule, MatSnackBarModule, MatTableModule,
   MatGridListModule,
-  MatIconModule} from '@angular/material';
+  MatIconModule, MatDividerModule
+} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { PaintingsComponent } from './paintings/paintings.component';
 import { HealthComponent } from './health/health.component';
@@ -37,7 +39,8 @@ import { CollectionPageComponent } from './collection-page/collection-page.compo
     MatTableModule,
     MatGridListModule,
     MatIconModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
