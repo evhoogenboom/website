@@ -1,0 +1,55 @@
+.paintings-page-intro {
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.paintings-list {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+
+}
+
+.painting-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.painting {
+    width: 45%;
+}
+
+.painting-image {
+    width: 100%;
+}
+
+.painting-text {
+    width: 45%;
+}
+
+.painting-text-title {
+    font-size: 150%;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+
+}
+
+.painting-text-content {
+    font-size: 90%;
+    line-height: 20px;
+}
+
+
+.main-text {
+    width: 40%;;
+}
+
+.painting-image-container {
+    width: 50%;
+}
+

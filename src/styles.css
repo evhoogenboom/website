@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: rgb(83, 83, 83);
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 180%;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[type="text"], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.beau {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 60px 50px 80px;
+}
+
+.macy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-intro-title {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 250%;
+  font-weight: bold;
+  margin: 0 10px 10px;
+}
+
+
+/* replace */
+.page-intro-text {
+  text-align: justify;
+  line-height: 25px;
+}
+
+
+.text-beginning-of-page {
+  line-height: 30px;
+  text-align: justify;
+  font-size: 120%;
+}

@@ -1,0 +1,44 @@
+.main-toolbar {
+    height: 55px;
+    background-color: rgb(9, 25, 59);
+    color: white;
+}
+
+mat-toolbar {
+  height: 35px;
+}
+
+.buttons-div {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toolbar-button {
+    background-color: transparent;
+    color: white;
+    font-size: 90%;
+    margin-right: 16px;
+    margin-left: 8px;
+}
+
+.contact-button {
+  justify-self: flex-end;
+  align-self: end;
+}
+
+.signature-image-container {
+  width: 400px;
+  height: 100px;
+}
+
+.copyright-note {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
